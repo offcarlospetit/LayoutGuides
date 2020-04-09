@@ -15,19 +15,26 @@ Usando yarn
 yarn add @offcarlospetit/gridsystem
 ```
 
-## Usage
-
-
+### Basic Usage
 ```jsx
+
+import React, { Component } from 'react';
+import { SafeAreaView, StyleSheet, ScrollView, View, Text, StatusBar, } from 'react-native';
 import GridSystem from '@offcarlospetit/gridsystem';
 
-...
-<>
- <YourUI>
-    ...
- </YourUI>
- <GridSystem/>
-</>
+
+class App extends Component {
+  render() {
+    return (
+      <>
+        <SafeAreaView style={{ flex: 1 }}>
+          // Aqui Tu Increible UI
+        </SafeAreaView>
+        <GridSystem />
+      </>
+    )
+  }
+}
 ```
 
 ## Contributing
