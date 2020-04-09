@@ -1,7 +1,8 @@
 {
-  "name": "gridsystem",
-  "version": "0.0.1",
-  "private": true,
+  "name": "@offcarlospetit/gridsystem",
+  "version": "0.0.3",
+  "description": "React Native Layout Grid System",
+  "main": "index.js",
   "scripts": {
     "android": "react-native run-android",
     "ios": "react-native run-ios",
@@ -12,6 +13,10 @@
   "dependencies": {
     "react": "16.11.0",
     "react-native": "0.62.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/offcarlospetit/LayoutGuides.git"
   },
   "devDependencies": {
     "@babel/core": "^7.9.0",
@@ -25,5 +30,11 @@
   },
   "jest": {
     "preset": "react-native"
-  }
+  },
+  "author": "Carlos Petit",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/offcarlospetit/LayoutGuides/issues"
+  },
+  "homepage": "https://github.com/offcarlospetit/LayoutGuides"
 }
